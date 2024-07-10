@@ -63,8 +63,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               boxShadow: [
                 BoxShadow(
                   color: Theme.of(context).colorScheme.shadow,
-                  offset: const Offset(1, 2),
-                  blurRadius: 7,
+                  offset: const Offset(1, 1),
+                  blurRadius: 5,
                   spreadRadius: 2,
                 )
               ],
@@ -78,9 +78,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   .tertiary
                   .withOpacity(0.3), //Icon Color of Not Selected
               dividerColor:
-                  Theme.of(context).colorScheme.primary, //Line Below Color
+                  Theme.of(context).colorScheme.onTertiaryContainer, //Line Below Color
               overlayColor: WidgetStatePropertyAll(
-                Theme.of(context).colorScheme.tertiary.withOpacity(0.4),
+                Theme.of(context).colorScheme.tertiary,
               ), //Color when selected
               indicatorColor:
                   Theme.of(context).colorScheme.tertiary, //Selected Line Color

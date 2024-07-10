@@ -11,7 +11,7 @@ class EducationalBackgroundPage extends StatefulWidget {
 class _EducationalBackgroundPageState extends State<EducationalBackgroundPage> {
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return const Center(
       child: Text("nigga"),
     );
   }
