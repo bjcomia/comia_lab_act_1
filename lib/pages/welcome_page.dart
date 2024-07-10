@@ -1,3 +1,4 @@
+import 'package:comia_lab_act_1/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -16,12 +17,18 @@ class _WelcomePageState extends State<WelcomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Welcome to My Laboratory Activity 1"),
+            const Text("Welcome to My Laboratory Activity 1"),
             ElevatedButton(
                 onPressed: () {
-                  //proceed to main page
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (BuildContext context) {
+                        return const HomePage();
+                      },
+                    ),
+                  );
                 },
-                child: Text("Proceed"))
+                child: const Text("Proceed"))
           ],
         ),
       ),
