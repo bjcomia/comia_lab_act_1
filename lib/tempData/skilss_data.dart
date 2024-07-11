@@ -13,3 +13,9 @@ const softSkills = [
   "Problem-Solving",
   "Collaboration",
 ];
+
+const certImg = [
+  "images/cert1.jpg",
+  "images/cert2.jpg",
+  "images/cert3.jpg",
+];

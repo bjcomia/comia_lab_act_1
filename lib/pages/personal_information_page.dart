@@ -19,7 +19,7 @@ class _PersonalInformationPageState extends State<PersonalInformationPage> {
         children: [
           Container(
             margin: const EdgeInsets.only(top: 7),
-            height: 365,
+            height: 400,
             child: FlutterCarousel(
               items: [
                 for (int index = 0; index < myImages.length; index++)
@@ -43,7 +43,7 @@ class _PersonalInformationPageState extends State<PersonalInformationPage> {
                   )
               ],
               options: CarouselOptions(
-                height: 350,
+                height: 400,
                 autoPlay: true,
                 autoPlayAnimationDuration: const Duration(seconds: 1),
                 enableInfiniteScroll: true,
@@ -191,7 +191,7 @@ class _PersonalInformationPageState extends State<PersonalInformationPage> {
           ),
           Container(
             width: double.infinity,
-            height: 150,
+            height: 110,
             padding: const EdgeInsets.only(left: 10, top: 5, right: 10, bottom: 5),
             margin: const EdgeInsets.only(top: 10, left: 10, right: 10),
             decoration: BoxDecoration(
@@ -207,8 +207,8 @@ class _PersonalInformationPageState extends State<PersonalInformationPage> {
               ],
             ),
             child: Text(
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in bibendum velit, non efficitur risus. Sed ultricies nibh purus. Sed dictum augue vel ante malesuada, vel finibus orci congue. Sed vulputate congue justo at malesuada. Etiam varius nisl vel efficitur scelerisque. Integer sit amet erat at nibh accumsan gravida id sed tortor. Etiam laoreet leo justo, at condimentum magna tempor nec. Suspendisse feugiat ipsum sit amet molestie dignissim. Vivamus rhoncus eleifend lacus, porttitor dignissim lorem sodales et. Suspendisse quam metus, dignissim non lacinia et, bibendum ut orci. In ipsum lectus, finibus nec mi ut, tincidunt blandit quam. Suspendisse non pulvinar nisl. Sed mollis sapien ligula, eget faucibus quam commodo et. Integer finibus gravida mauris sed tincidunt. Nullam bibendum neque dolor, ac volutpat purus tempor id.",
-              textAlign: TextAlign.justify,
+              "Hi!, I am Benedict John D. Comia. I am currently studying at Batangas State University - The National Engineering University taking the program Bachelor of Science in Information Technology Major in Business Analytics.  Throughout my life, I have a life quote that pushed myself to strive hard which is to \"Keep Moving Forward\"."
+              ,textAlign: TextAlign.justify,
               style: TextStyle(
                   fontSize: 12,
                   color: Theme.of(context).colorScheme.secondary),
