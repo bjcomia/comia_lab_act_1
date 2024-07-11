@@ -19,6 +19,17 @@ class _WelcomePageState extends State<WelcomePage> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              Container(
+                height: 150,
+                width: 150,
+                decoration: const BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage("images/welcome_logo.png"),
+                    fit: BoxFit.fill
+                  )
+                ),
+              ),
+              const SizedBox(height: 30),
               Text(
                 "Welcome to My Laboratory Activity 1",
                 textAlign: TextAlign.center,
