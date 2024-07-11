@@ -20,7 +20,7 @@ class _SkillsPageState extends State<SkillsPage> {
           startDelay: const Duration(milliseconds: 1000),
           glowColor: Theme.of(context).colorScheme.secondary,
           glowShape: BoxShape.circle,
-          glowRadiusFactor: 0.15,
+          glowRadiusFactor: 0.13,
           curve: Curves.fastOutSlowIn,
           child: Container(
             decoration: BoxDecoration(
@@ -114,7 +114,7 @@ class _SkillsPageState extends State<SkillsPage> {
           startDelay: const Duration(milliseconds: 1000),
           glowColor: Theme.of(context).colorScheme.secondary,
           glowShape: BoxShape.circle,
-          glowRadiusFactor: 0.15,
+          glowRadiusFactor: 0.13,
           curve: Curves.fastOutSlowIn,
           child: Container(
             decoration: BoxDecoration(
