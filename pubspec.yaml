@@ -38,6 +38,7 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_carousel_widget: ^2.2.0
   avatar_glow: ^3.0.1
+  ionicons: ^0.2.2
 
 dev_dependencies:
   flutter_test:
